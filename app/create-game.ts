@@ -22,6 +22,16 @@ $(function() {
   game.player1.board.spaces[0][7].isEmpty = false;
   game.player1.board.spaces[0][6].isEmpty = false;
   game.player1.board.spaces[0][5].isEmpty = false;
+
+  var p2wins;
+  for(var i = 0; i < 8; i++) {
+    for(var j = 0; j < 8; j++) {
+      if(!(game.player1.board.spaces[i][j].isEmpty)) {
+        p2wins.push(game.player1.board.spaces[i][j])
+      }
+    }
+  }
+
   for(var i = 0; i < game.player1.board.row.length; i++) {
     $("#p1board").append('<div id="p1' + game.player1.board.row[i] + '" class="row"></div>')
     for(var j = 0; j < game.player1.board.column.length; j++) {
@@ -47,7 +57,12 @@ $(function() {
       } else {
         game.player1.board.spaces[rowIndex][column-1].mark();
         $(this).text("O");
+        var notWin = false;
+        for (var i = 0; i < p2wins.length; i++) {
+          if ()
+        }
       }
     }
   });
+
 });
