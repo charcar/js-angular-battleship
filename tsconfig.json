@@ -5,6 +5,7 @@
     "out": "build/js/app.js"
   },
   "files": [
-    "app/spaces.ts"
+    "app/spaces.ts",
+    "app/ships.ts"
     ]
 }
