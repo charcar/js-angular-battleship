@@ -1,0 +1,22 @@
+.space {
+  border: solid 1px black;
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+
+#p1board {
+  display: none;
+  margin-left: 500px;
+  margin-top: 400px;
+}
+#p2board {
+  display: none;
+  margin-left: 500px;
+  margin-top: 400px;
+}
+
+h1 {
+  font-size: 200px;
+  text-align: center;
+}

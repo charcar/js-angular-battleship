@@ -5,7 +5,7 @@
 module Battleship {
   export class Player {
     constructor(public name: string){}
-    ships: Ship[];
+    ships: Ship[] = [];
     board: Board = new Board();
     generateShips() {
       for (var i=0; i < Battleship.ships.length; i++) {
