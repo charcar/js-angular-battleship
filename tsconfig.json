@@ -6,6 +6,10 @@
   },
   "files": [
     "app/spaces.ts",
-    "app/ships.ts"
+    "app/ships.ts",
+    "app/board.ts",
+    "app/player.ts",
+    "app/game.ts",
+    "app/create-game.ts"
     ]
 }

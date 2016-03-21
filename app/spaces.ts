@@ -10,11 +10,11 @@ module Battleship {
   export class Space implements ISpace {
     isEmpty: boolean = true;
     marked: boolean = false;
-    constructor(public column: number, public row: string){}
+    constructor(public row: string, public column: number){}
     mark() {
       this.marked = true;
     }
   }
 
-  
+
 }
