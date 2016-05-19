@@ -1,5 +1,3 @@
-# js-angular-battleship
-
 ## BattleShipish
 
 #### March, 2016
