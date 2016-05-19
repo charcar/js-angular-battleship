@@ -16,7 +16,7 @@ Clone this repository. Open terminal and:
 ```
 $ cd ~/Desktop
 $ git clone https://github.com/charcar/js-angular-battleship.git
-$ cd picacause
+$ cd js-angular-battleship
 ```
 
 Install Node tools
